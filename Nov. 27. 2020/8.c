@@ -1,0 +1,26 @@
+// Displays a 4X5 matrix
+
+#include <stdio.h>
+int main()
+{
+    int mx[4][5], i, j;
+
+    for (i = 0; i < 4; i++)
+    {
+        for (j = 0; j < 5; j++)
+        {
+            printf("Enter data: ");
+            scanf("%d", &mx[i][j]);
+        }
+    }
+
+    for (i = 0; i < 4; i++)
+    {
+        for (j = 0; j < 5; j++)
+        {
+            printf(" %d \t", mx[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
