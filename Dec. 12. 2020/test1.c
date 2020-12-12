@@ -15,7 +15,7 @@ int main()
     increment();
     increment();
 
-    for (int i = 1; i <= 3; i++)
+    for (int i = 1; i <= 4; i++)
         increment();
 
     return 0;
