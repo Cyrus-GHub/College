@@ -8,8 +8,7 @@ int main()
         int Year;
         char SOC[50];
         char dispalay[100];
-    };
-    struct Phone P1, P2, P3, P4;
+    } P1, P2, P3, P4;
 
     struct Phone P1 = {"Pixel 5", 2020, "Snapdragon 765G", "6 inch 90Hz OLED"};
     struct Phone P2 = {"Pixel 4a 5G", 2020, "Snapdragon 765G", "6.2 inch 60Hz OLED"};
