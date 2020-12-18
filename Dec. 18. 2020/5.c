@@ -25,10 +25,10 @@ void display()
     if (p == NULL)
     {
         printf("\n List is empty");
-        return 0;
     }
 
     p = head;
+    printf("List: ");
     while (p != NULL)
     {
         printf("%d ---> ", p->data);
@@ -58,7 +58,7 @@ int main()
 
         p->next = t;
 
-        printf("\n Do you wnat toadd more nodes? Press 1 for YES, Press 0 for NO\n");
+        printf("\n Do you wnat to add more nodes? Press 1 for YES, Press 0 for NO\n");
         scanf("%d", &a);
     } while (a);
 
