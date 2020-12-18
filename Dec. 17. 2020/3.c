@@ -64,5 +64,6 @@ int main()
     printf("\n Highest Salary: Rs %.2f", highest);
     printf("\n Number of employees with salary greater than Rs 5000: %d", count);
 
+
     return 0;
 }
