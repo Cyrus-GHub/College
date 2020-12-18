@@ -1,4 +1,4 @@
-// Sorts employee's salary in slabs
+// Sort employee's salary in slabs
 
 #include <stdio.h>
 int main()

@@ -6,7 +6,7 @@ int main()
     char name[10][8], duplicate[10][8], temp[8];
     int i, j, n;
 
-    printf("Enter the value of n \n");
+    printf("Enter number of employees: \n");
     scanf("%d", &n);
     printf("Enter %d names: \n", n);
 
