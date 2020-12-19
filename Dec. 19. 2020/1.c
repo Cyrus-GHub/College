@@ -37,6 +37,24 @@ void display(struct node *p)
     printf("NULL");
 }
 
+int largest(struct node *p)
+{
+    struct node *new = head;
+    int max;
+
+    max = head->data;
+
+    while (new != NULL)
+    {
+        if (max < new->data)
+        {
+            max = new->data;
+        }
+        new = new->next;
+    }
+    return max;
+}
+
 int main()
 {
     int a;
@@ -64,6 +82,8 @@ int main()
 
     display(head);
 
+    int x = largest(head);
+    printf("\n Largest: %d", x);
+
     return 0;
 }
-  
