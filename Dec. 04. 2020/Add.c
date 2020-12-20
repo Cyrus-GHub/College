@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 int add(int *point);
+
 int main()
 {
     int num[10];
