@@ -1,0 +1,3 @@
+Hello! 
+I am a text document.
+My file extension is '.txt'.
