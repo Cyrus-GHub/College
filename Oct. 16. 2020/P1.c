@@ -1,4 +1,5 @@
 /* Display the velocity and Disctance covered by a stone */
+
 #include <stdio.h>
 #define g 9.8
 void main()
